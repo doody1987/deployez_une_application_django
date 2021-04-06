@@ -3,6 +3,7 @@ from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from django.db import transaction, IntegrityError
 
 from .models import Album, Artist, Contact, Booking
+from .models import Album, Artist, Contact, Booking
 from .forms import ContactForm
 from .forms import ContactForm, ParagraphErrorList
 
